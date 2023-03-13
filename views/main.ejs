@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<header>ENJOY COMPLIMENTARY SHIPPING AND SIGNATURE SAINT LAURENT PACKAGING FOR ANY ORDER PLACED ON 圣罗兰.COM.</br>
+For project display pupose only . 🤎</header>
+<body>
+    <h1>SAINT LAURENT
+    </h1>
+    <h2 class="h2">
+        <ul class="left">
+       <li><a href="http://localhost:3000/mains"  class="a1">  WOMAN COLLECTION </a></li> 
+       <li><a href="https://www.ysl.com/en-us/page-saint-laurent-self07" class="a1" > ABOUT</a></li>
+       <li><a href="https://www.ysl.com/en-us/storelocator" class="a1"> LOCATIONS</a></li>
+    </ul>
+    <ul class="right">
+       <li><a href="https://www.ysl.com/en-us/cart" class="a1"> 🛒BAGS</a></li>
+       <li><a href="http://localhost:3000/users/signin" class="a1"> LOG IN</a></li>
+       <li><a href="http://localhost:3000/users/register" class="a1"> REGISTER</a></li>
+    </ul>
+
+    </h2>
+    <h3><iframe width="99%" height="215" src="https://www.youtube.com/embed/_FaMXhEP1DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h3>
+    <ul class="ul2">
+        <% for(let i=0; i<gifts.length;i++){ %>
+        <li class="product">
+            <a href="/gifts/<%=gifts[i].id %>" class="a2">
+                <img src="<%= gifts[i].img %>" width="145" height="175"></br>
+                <%=gifts[i].name %><br/>
+            </a>
+            <%=gifts[i].description %><br/>
+            <span class="price">Price:$<%=gifts[i].price %> <br/></span>
+       
+<!--       
+        <form action="/gifts" method="POST"> -->
+    <button type="submit" class="button1">ADD TO BAG</button></br>   
+<!-- </form>  -->
+<button type="submit" class="button2">VIEW DETAILS</button>
+
+            
+
+        </li>
+    <% } %>
+    </ul>
+ 
+  
+</body>
+<footer >
+    <div class="container">
+    <ul class="left2">
+    <li><a href="https://www.facebook.com/ysl" class="a3"> FACEBOOK</a></li>
+    <li><a href="https://twitter.com/ysl" class="a3" > TWITTER</a></li>
+    <li><a href="https://www.instagram.com/ysl/" class="a3"> INSTGRAM</a></li>
+    <li><a href="https://www.youtube.com/ysl" class="a3"> YOUTUBE</a></li>
+</ul>
+<ul class="right2">
+    <li><a href="https://www.ysl.com/en-us/displayname-faq?faqCategory=FAQShipping" class="a3"> SHIPPING</a></li>
+    <li><a href="https://www.ysl.com/on/demandware.store/Sites-SLP-NOAM-Site/en_US/Order-GuestForm?orderType=return" class="a3" > RETURN</a></li>
+</ul>
+</div>
+
+</footer>
+
+
+</html>

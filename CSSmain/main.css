@@ -1,0 +1,141 @@
+header{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+
+h1{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.h2{
+   display: flex;
+    list-style: none;
+    margin-top: 7px;
+    font-size: 10px;
+    margin-left: 15px;
+  
+}
+.left {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 800px;
+  }
+
+.a1{
+    color:black;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    
+
+}
+
+.ul2 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+    color:black;
+}
+
+.product {
+    flex-basis:25% ;
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 8px;
+    margin-left: 40px;
+}
+
+.a2 {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+.button1 {
+    background-color: #3d433d; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:120px;
+    height:25px;
+}
+.button2 {
+    background-color:  #3d433d; /* Blue */
+    border: none;
+    color: rgb(247, 236, 236);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:120px;
+    height:25px;
+}
+.container {
+    width: 99.99%;
+    height: 65px;
+    border: 0.1px solid rgb(125, 119, 119);
+    display: flex;
+    justify-content: space-between;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+  }
+  
+
+.left2 {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+    font-size: 10px;
+    margin-left: 195px;
+    margin-bottom: 30px;
+  }
+  
+  .right2 {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 255px;
+    margin-top: 7px;
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+
+  .a3{
+    color:black;
+  }
+
+  .price{
+    font-size: 14px;
+    margin-top: 6px;
+  }
