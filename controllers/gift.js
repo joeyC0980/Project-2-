@@ -117,45 +117,7 @@ router.post("/", (req, res) => {
 
 
 
-//purchase 
-// app.get('/:id/buy',(req, res) => {
-// 	Gift.findById(req.params.id, (err, foundGift) => {
-// 		if(err) {
-// 			console.log(err)
-// 			res.send(err)
-// 		} else {
-// 			res.render('purchase.ejs', {
-// 				gift: foundGift
-// 			})
-// 		}
-// 	})
-// });
-
-// app.post('/:id/buy', (req, res) => {
-//     Gift.findById(req.params.id, (err, foundGift) => {
-//       if (err) {
-//         console.log(err)
-//         res.send(err)
-//       } else {
-//         // validate the quantity value
-//         const qty = parseInt(req.body.qty)
-//         if (isNaN(qty) || qty < 1) {
-//           res.send('Invalid quantity')
-//           return
-//         }
-//         if (qty > foundGift.qty) {
-//           res.send('Insufficient stock')
-//           return
-//         }
-//         // update the product quantity and save it to the database
-//         foundGift.qty = foundProduct.qty - qty
-//         foundGift.save()
-//         res.redirect('/gifts')
-//       }
-//     })
-// })
 
 
-//////////////////////////////////
 
 module.exports = router
